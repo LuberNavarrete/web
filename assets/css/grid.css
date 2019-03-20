@@ -11,6 +11,7 @@ h3 {
 .row {
   margin-bottom: 1rem;
 }
+
 .row .row {
   margin-top: 1rem;
   margin-bottom: 0;
@@ -18,12 +19,14 @@ h3 {
 [class*="col-"] {
   padding-top: 1rem;
   padding-bottom: 1rem;
-/*  background-color: rgba(86, 61, 124, .15);*/
   border: 1px solid rgba(86, 61, 124, .2);
 }
 
 .barside {
   background-color: #5e76a8;
+  -webkit-border-radius: 20px 0px 0px 20px;
+  -moz-border-radius: 20px 0px 0px 20px;
+  border-radius: 20px 0px 0px 20px; 
 }
 
 .imgred{
@@ -36,4 +39,7 @@ h3 {
 
 .content{
   background-color: rgba(86, 61, 124, .15);
+  -webkit-border-radius: 0px 20px 20px 0px;
+  -moz-border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 20px 20px 0px;
 }
